@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Headland+One&display=swap" rel="stylesheet">
+	<title>Week5Assignment</title>
+</head>
+<body>
+	  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+
+
+	<header>
+		<nav id="navheader" class="navbar navbar-default">
+			<!-- navbar and navber-default are from bootstrap-->
+		<div class="container"><!-- container is from bootstap -->
+			<div class="navbar-header">
+				<!-- navbar-brand is from bootstrap -->
+				<!-- LOGO IMG-->
+				<div id="logo" class="pull-left visible-md visible-lg" alt="Logo"></div>
+				<!-- pull-left, visible-lg and vidible-md from bootstrap-->
+
+				<!--HEADER NAME -->
+
+				<div class="navbar-brand" >
+					<!-- navbar-brand is from bootstrap -->
+					<h1>FOOD STORE</h1>
+					<p><span>Quality Food</span></p>
+					
+				</div>
+
+				<!-- BUTTONS -->
+
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+				<!-- navbar-toggle collapsed are css bootstrap file-->
+				<!-- data-toggle and data-target are js plugins through html 5 -->
+				<!-- aria-expanded is for screen readers-->
+				<span class="sr-only">Toggle navigation</span>
+				<!-- class sr-only is for screen readers only -->
+				<span class="icon-bar"></span>
+				<!-- class icon bar is from bootstrap-->
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>	
+				</button>
+			</div>
+
+		<div id="collapsable-nav" class="collapse navbar-collapse">
+           <ul id="nav-list" class="nav navbar-nav navbar-right">
+					<!-- classes nav navbar-nav and navbar-right is from bootstrap -->
+					<li>
+						<a href="index2.html">
+						<span class="glyphicon glyphicon-cutlery">
+								<!-- glyphicon class id from bootstrap-->
+							</span>
+							<br class="hidden-xs">CUISINES</a>
+							<!-- class hidden-xs is from bootstrap-->
+					</li>
+					<li>
+					<a href="index3.html">	
+					<span class="glyphicon glyphicon-heart-empty"></span>
+						<br class="hidden-xs">SPEACIALS</a>
+					</li>
+					<li>
+						<a href="drinks.html">
+						<span class="glyphicon glyphicon-info-sign"></span>
+							<br class="hidden-xs">ABOUT US</a>
+					</li>	
+					<li id="phone" class="hidden-xs">
+						<a href="tel:696-969-69699">
+						<span>696-969-6969</span>
+					</a><div>Free Delivery</div>
+					</li>
+				</ul><!-- navigation list-->
+				
+			</div>
+
+		</div>
+		</nav>
+	</header>
+		<!-- END OF NAVIGATION BAR -->
+<div id ="main" class="container">
+	<h1 id="top">OUR MENU</h1>
+<div class="row" id="tiles">
+	<a href="index2.html">
+	<div  class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+		<div class="box"><h1 class="headbox">Cuisine</h1>
+		<p class="contents">A cuisine is a style of cooking characterized by distinctive ingredients, techniques and dishes, and usually associated with a specific culture or geographic region. Regional food preparation traditions, customs and ingredients often combine to create dishes unique to a particular region.
+        A cuisine is primarily influenced by the ingredients that are available locally or through trade, they can even be made into distinct ingredients themselves when they become popular within a region.
+        </p>
+    </div>
+	</div></a>
+	<a href="index3.html">
+	<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+		<div class="box"><h1 class="headbox">SPECIALS</h1>
+		<p  class="contents">Special random and tasty dishes prepared by our chef just for You.
+        </p>
+    </div>
+	</div></a>
+	<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+		<div class="box">
+		<h1 class="headbox">About-Us</h1>
+		<p  class="contents">A restaurant, or an eatery, is a business that prepares and serves food and drinks to customers. Meals are generally served and eaten on the premises, but many restaurants also offer take-out and food delivery services. Restaurants vary greatly in appearance and offerings, including a wide variety of cuisines and service models ranging from inexpensive fast food restaurants and cafeterias, to mid-priced family restaurants, to high-priced luxury establishments.
+		 </p>
+		</div>
+	</div>
+</div>
+</div>
+</body>
+</html>
